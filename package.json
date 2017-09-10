@@ -1,0 +1,28 @@
+{
+  "name": "gulp-template",
+  "version": "1.0.0",
+  "description": "Gulp starter template for front-end develop",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andrey-reznik/gulp-template.git"
+  },
+  "author": "andrey-reznik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrey-reznik/gulp-template/issues"
+  },
+  "homepage": "https://github.com/andrey-reznik/gulp-template#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

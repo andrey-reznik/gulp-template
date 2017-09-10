@@ -1,0 +1,22 @@
+{
+  "name": "gulp-template",
+  "description": "Gulp starter template for front-end develop",
+  "main": "gulpfile.js",
+  "authors": [
+    "andrey-reznik"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap-grid": "^3.3.6-beta.1"
+  }
+}

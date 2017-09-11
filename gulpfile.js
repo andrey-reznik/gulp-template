@@ -1,11 +1,11 @@
 'use strict';
 
-var gulp 		= require('gulp'),
-	sass 		= require('gulp-sass'),
-	browserSync	= require('browser-sync'),
-	pug			= require('gulp-pug'),
-	concat		= require('gulp-concat'),
-	del			= require('del');
+var gulp 				= require('gulp'),
+		sass 				= require('gulp-sass'),
+		browserSync	= require('browser-sync'),
+		pug					= require('gulp-pug'),
+		concat			= require('gulp-concat'),
+		del					= require('del');
 
 // Автообновление в браузере
 gulp.task('browser-sync', function(){
@@ -61,7 +61,7 @@ gulp.task('libs:fonts', function(){
 });
 
 // Мониторинг изменений
-gulp.task('watch',['sass', 'pug', 'app:js', 'libs:js', 'browser-sync'] , function(){
+gulp.task('watch', ['sass', 'pug', 'app:js', 'libs:js', 'browser-sync'] , function(){
 	gulp.watch('app/sass/**/*.{sass, scss}', ['sass']);
 	gulp.watch('app/pug/**/*.pug', ['pug']);
 	gulp.watch('app/pug/**/*.js', ['app:js']);
